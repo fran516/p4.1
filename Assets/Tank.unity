@@ -173,7 +173,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 968602c72de4c40978033fc3435a5dfc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 268112198}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 968602c72de4c40978033fc3435a5dfc, type: 3}
       insertIndex: -1
@@ -228,7 +231,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 268112195}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &268112197
 Camera:
   m_ObjectHideFlags: 0
@@ -262,7 +265,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 65
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -288,13 +291,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 268112195}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.5, y: 0, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: 44.6, y: 9.89, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 578345010}
-  m_LocalEulerAnglesHint: {x: 60, y: 0, z: 0}
+  m_Father: {fileID: 170799003}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &268112199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -486,9 +489,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2a291da6430eb4434bc2739e4581f768, type: 3}
       insertIndex: -1
       addedObject: {fileID: 170799003}
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2a291da6430eb4434bc2739e4581f768, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 268112198}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2a291da6430eb4434bc2739e4581f768, type: 3}
       insertIndex: -1

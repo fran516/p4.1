@@ -9,10 +9,11 @@ public class CameraMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         Transform t = gameObject.transform;
-        t.localPosition = new Vector3(0.0f, 20.0f, -20.0f);
+        t.localPosition = new Vector3(0.0f, 400.0f, -20.0f);
+        t.localRotation = Quaternion.Euler(0.0f, 0.0f, 0.0f);
         
     }
 }
