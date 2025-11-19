@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Rotation : MonoBehaviour
 {
-    public float turnSpeed = 75.0f;
+    public float turretSpeed = 50.0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -13,11 +13,13 @@ public class Rotation : MonoBehaviour
     void Update()
     {
         float rotation = 0.0f;
-        if (Input.GetKey (KeyCode.Q)) {
-            rotation = -turnSpeed * Time.deltaTime;
+        if (Input.GetKey (KeyCode.Q)) 
+        {
+            rotation = -turretSpeed * Time.deltaTime;
         } 
-        else if (Input.GetKey (KeyCode.E)) {
-            rotation = turnSpeed * Time.deltaTime;
+        else if (Input.GetKey (KeyCode.E)) 
+        {
+            rotation = turretSpeed * Time.deltaTime:
         }
         
         Transform t = gameObject.transform;
